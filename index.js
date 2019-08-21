@@ -71,7 +71,7 @@ server.post(
 
     project.tasks.push(title);
 
-    return res.json(projects);
+    return res.json(project);
   }
 );
 
